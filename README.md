@@ -1,4 +1,4 @@
-#**Auto Steering of Vehicle Using OpenCV and CNN**
+#**Auto Steering of Vehicle Using OpenCV and CNN**#
 
 **Project Overview**
 
