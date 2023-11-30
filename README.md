@@ -12,8 +12,10 @@ Swodesh Sharma
 
 This project is focused on implementing lane-following capabilities for autonomous vehicles in the Gym Donkey Car simulation environment. The system employs OpenCV to use image processing techniques to steer the car in the track. While the car is driven just by image processing algorithm, the data is collected to further train it in Convolutional Neural Networks (CNN) for steering angle prediction. The workflow involves reading data from the Gym Donkey Car simulation, applying image transformations, and utilizing computer vision techniques to extract lane information. And using these lane information , the car is steered in the track and the dataset is collected for Deep Learning.
 
-#**Workflow**
-#**PART 1 : COMPUTER VISION**
+<h2>Workflow</h2>
+
+ <h3>PART 1 : COMPUTER VISION </h3>
+
 **Simulation Environment:**
 Utilize Gym Donkey Car simulation for generating training and testing data.
 ![image](https://github.com/swodesh-2001/Auto-Steering-of-Vehicle-Using-OpenCV-and-CNN/assets/70265297/1fcf24ac-fb8f-4962-9e81-4ceba34a8b8f)
