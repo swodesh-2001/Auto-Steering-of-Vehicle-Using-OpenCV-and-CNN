@@ -36,7 +36,7 @@ Image from the donkeycar is read in Opencv and following techniques are applied.
 
 After obtaining the left and right bases, a subsequent step involves constructing a small box around each of these bases and extracting the contour of the content enclosed within these boxes. Subsequently, a new set of boxes is generated, wherein the bases are determined by the centers of the contours identified in the preceding step. This iterative process allows for the creation of successive layers of boxes, each centered around the contours of the previous base, facilitating a refined and detailed analysis of the underlying content.
 
-![image](https://github.com/swodesh-2001/Auto-Steering-of-Vehicle-Using-OpenCV-and-CNN/assets/70265297/cea059a7-a727-4170-9d52-557e04990415)
+![image](https://github.com/swodesh-2001/Auto-Steering-of-Vehicle-Using-OpenCV-and-CNN/assets/70265297/467f3ce7-bd7a-4e72-92fa-0ba4c5e3b9a8)
 
 5) Steering angle calculation
 By iteratively moving this window along the vertical axis, lane line points are effectively captured throughout the entire image. Subsequently, a second-order polynomial is fitted to these identified lane points using techniques like polynomial regression. The coefficients of this polynomial model are then utilized to extract crucial information such as lane curvature and position. This information is essential for steering angle prediction, as it provides insights into the road geometry. The calculated steering angle is then transmitted to the Gym Donkey Car simulation, allowing for autonomous steering adjustments based on the real-time analysis of lane information.
