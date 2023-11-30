@@ -36,6 +36,11 @@ Image from the donkeycar is read in Opencv and following techniques are applied.
 
 Lane Tracking:
 
+After obtaining the left and right bases, a subsequent step involves constructing a small box around each of these bases and extracting the contour of the content enclosed within these boxes. Subsequently, a new set of boxes is generated, wherein the bases are determined by the centers of the contours identified in the preceding step. This iterative process allows for the creation of successive layers of boxes, each centered around the contours of the previous base, facilitating a refined and detailed analysis of the underlying content.
+
+![image](https://github.com/swodesh-2001/Auto-Steering-of-Vehicle-Using-OpenCV-and-CNN/assets/70265297/cea059a7-a727-4170-9d52-557e04990415)
+
+
 Implement a sliding window approach to identify lane line points.
 Fit identified points with a second-order polynomial to extract lane curvature and position.
 Steering Angle Prediction:
