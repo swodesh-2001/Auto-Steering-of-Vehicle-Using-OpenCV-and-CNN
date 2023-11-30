@@ -28,12 +28,11 @@ Image from the donkeycar is read in Opencv and following techniques are applied.
     ![image](https://github.com/swodesh-2001/Auto-Steering-of-Vehicle-Using-OpenCV-and-CNN/assets/70265297/40abe175-bf21-4a2e-9fee-e093d228e233)
 
    
-3) 
-Convert images to a bird's-eye view perspective to simplify lane detection.
-Lane Detection:
+2) Using the values obtained from the calibration we perform , warp transformation and HSV masking.
+3) Now once we get the HSV mask of the lane lines , we create a histogram of the image , to seperate the left and right lane lines
+   ![image](https://github.com/swodesh-2001/Auto-Steering-of-Vehicle-Using-OpenCV-and-CNN/assets/70265297/89d3e478-90cd-44e8-88d5-5a8efba90d03)
+   
 
-Apply HSV thresholding to segment lane lines from the warped images.
-Create a histogram to distinguish left and right lane lines.
 Lane Tracking:
 
 Implement a sliding window approach to identify lane line points.
