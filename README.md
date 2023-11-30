@@ -45,4 +45,8 @@ By iteratively moving this window along the vertical axis, lane line points are 
 
 ![2023-11-30 21-38-22](https://github.com/swodesh-2001/Auto-Steering-of-Vehicle-Using-OpenCV-and-CNN/assets/70265297/d4ba5953-b658-47b7-ba86-537f68510e0d)
 
+<h3>PART 2 : DEEP LEARNING </h3>
 
+1) Data Collection
+2) Training
+3) Validation
