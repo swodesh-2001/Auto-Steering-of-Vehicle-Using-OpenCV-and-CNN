@@ -43,4 +43,6 @@ After obtaining the left and right bases, a subsequent step involves constructin
 5) Steering angle calculation
 By iteratively moving this window along the vertical axis, lane line points are effectively captured throughout the entire image. Subsequently, a second-order polynomial is fitted to these identified lane points using techniques like polynomial regression. The coefficients of this polynomial model are then utilized to extract crucial information such as lane curvature and position. This information is essential for steering angle prediction, as it provides insights into the road geometry. The calculated steering angle is then transmitted to the Gym Donkey Car simulation, allowing for autonomous steering adjustments based on the real-time analysis of lane information.
 
+![2023-11-30 21-38-22](https://github.com/swodesh-2001/Auto-Steering-of-Vehicle-Using-OpenCV-and-CNN/assets/70265297/d4ba5953-b658-47b7-ba86-537f68510e0d)
+
 
