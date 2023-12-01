@@ -1,4 +1,4 @@
-<h1>Auto Steering of Vehicle Using OpenCV and CNN </h1>
+![image](https://github.com/swodesh-2001/Auto-Steering-of-Vehicle-Using-OpenCV-and-CNN/assets/70265297/0d9f3d8e-5f70-4758-aaf9-671541e3c7b5)<h1>Auto Steering of Vehicle Using OpenCV and CNN </h1>
 
 **Project Overview**
 
@@ -48,5 +48,11 @@ By iteratively moving this window along the vertical axis, lane line points are 
 <h3>PART 2 : DEEP LEARNING </h3>
 
 1) Data Collection
+Using the computer vision algorithm developed above, the car is driven around the track, and data is collected. This dataset comprises track images paired with their corresponding steering angles. This methodology is commonly referred to as Behavior Cloning.
+In Behavior Cloning, the algorithm learns to mimic the driving behavior observed during data collection. The model is trained on the collected dataset, enabling it to generalize and autonomously navigate the track based on the learned steering patterns. This approach is widely utilized in the development of autonomous vehicles, leveraging the principles of supervised learning to emulate human-like driving skills.
+
 2) Training
-3) Validation
+Model Architecture used.
+![image](https://github.com/swodesh-2001/Auto-Steering-of-Vehicle-Using-OpenCV-and-CNN/assets/70265297/a3e5d299-754c-48cf-b188-6907c016b57b)
+
+
