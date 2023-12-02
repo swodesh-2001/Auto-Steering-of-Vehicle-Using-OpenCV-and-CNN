@@ -1,4 +1,4 @@
-<h1>Auto Steering of Vehicle Using OpenCV and CNN </h1>
+![image](https://github.com/swodesh-2001/Auto-Steering-of-Vehicle-Using-OpenCV-and-CNN/assets/70265297/44279b26-e3ec-4ea7-8e41-420c17a361f8)![image](https://github.com/swodesh-2001/Auto-Steering-of-Vehicle-Using-OpenCV-and-CNN/assets/70265297/d293281c-626a-4435-8dfb-4d8018191ef2)<h1>Auto Steering of Vehicle Using OpenCV and CNN </h1>
 
 **Project Overview**
 
@@ -50,12 +50,47 @@ By iteratively moving this window along the vertical axis, lane line points are 
 
 <h3>PART 2 : DEEP LEARNING </h3>
 
-1) Data Collection
+1) Data Collection,Balancing and Augmentation
 Using the computer vision algorithm developed above, the car is driven around the track, and data is collected. This dataset comprises track images paired with their corresponding steering angles. This methodology is commonly referred to as Behavior Cloning.
 In Behavior Cloning, the algorithm learns to mimic the driving behavior observed during data collection. The model is trained on the collected dataset, enabling it to generalize and autonomously navigate the track based on the learned steering patterns. This approach is widely utilized in the development of autonomous vehicles, leveraging the principles of supervised learning to emulate human-like driving skills.
 
-2) Training
-Model Architecture used.
+a)Data Balancing
+
+The car being driven has more data with 0 as the steering, which will make the model biased towards predicting 0 so we balance the data.
+![image](https://github.com/swodesh-2001/Auto-Steering-of-Vehicle-Using-OpenCV-and-CNN/assets/70265297/677c6041-85b6-4b1f-96bb-c34468ca77af)
+
+b)Data Augmentation.
+
+The data was augmented with the ’imgaug’ augmentation library and applied only to the training data.
+
+Data Augmentation includes
+Zooming  allows the model to get closer look of some features
+
+Image Panning  translation shifting
+
+Altering Brightness  changes the brightness ( brighter or darker)
+
+![image](https://github.com/swodesh-2001/Auto-Steering-of-Vehicle-Using-OpenCV-and-CNN/assets/70265297/d40b1120-beec-4928-b248-d3f3dd91925a)
+
+These techniques make the data more versatile, allowing the model to generalize for various scenarios despite the limited amount of data
+![image](https://github.com/swodesh-2001/Auto-Steering-of-Vehicle-Using-OpenCV-and-CNN/assets/70265297/2efbbc0c-8cf5-46b4-80f0-baa27ded0659)
+
+c)RGB to YUV
+This conversion helps to highlight the lane features of the track
+![image](https://github.com/swodesh-2001/Auto-Steering-of-Vehicle-Using-OpenCV-and-CNN/assets/70265297/a09a69cf-74d8-41f8-9675-45cf4f372257)
+
+Finally, a Gaussian blur is applied, which smooths the images and removes disturbances. 
+The final steps in image processing are resizing and normalization, which resizes the image to the desired shape in the range [0, 1] helping speed up the training process.
+
+
+
+3) Training
+   
+Model Architecture used for CNN.
 ![image](https://github.com/swodesh-2001/Auto-Steering-of-Vehicle-Using-OpenCV-and-CNN/assets/70265297/a3e5d299-754c-48cf-b188-6907c016b57b)
+
+CNN + LSTM 
+
+![Uploading image.png…]()
 
 
