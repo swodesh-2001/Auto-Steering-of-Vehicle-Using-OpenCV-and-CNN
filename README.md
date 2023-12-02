@@ -89,8 +89,5 @@ The final steps in image processing are resizing and normalization, which resize
 Model Architecture used for CNN.
 ![image](https://github.com/swodesh-2001/Auto-Steering-of-Vehicle-Using-OpenCV-and-CNN/assets/70265297/a3e5d299-754c-48cf-b188-6907c016b57b)
 
-CNN + LSTM Algorithm
  
-![image](https://github.com/swodesh-2001/Auto-Steering-of-Vehicle-Using-OpenCV-and-CNN/assets/70265297/df73bd28-1488-42ee-9182-929851ab2a10)
-
 
