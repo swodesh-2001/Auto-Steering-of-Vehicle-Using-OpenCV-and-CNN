@@ -1,4 +1,4 @@
-![image](https://github.com/swodesh-2001/Auto-Steering-of-Vehicle-Using-OpenCV-and-CNN/assets/70265297/44279b26-e3ec-4ea7-8e41-420c17a361f8)![image](https://github.com/swodesh-2001/Auto-Steering-of-Vehicle-Using-OpenCV-and-CNN/assets/70265297/d293281c-626a-4435-8dfb-4d8018191ef2)<h1>Auto Steering of Vehicle Using OpenCV and CNN </h1>
+<h1>Auto Steering of Vehicle Using OpenCV and CNN </h1>
 
 **Project Overview**
 
