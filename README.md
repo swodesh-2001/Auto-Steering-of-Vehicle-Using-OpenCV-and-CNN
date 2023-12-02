@@ -72,8 +72,7 @@ Altering Brightness  changes the brightness ( brighter or darker)
 
 ![image](https://github.com/swodesh-2001/Auto-Steering-of-Vehicle-Using-OpenCV-and-CNN/assets/70265297/d40b1120-beec-4928-b248-d3f3dd91925a)
 
-These techniques make the data more versatile, allowing the model to generalize for various scenarios despite the limited amount of data
-![image](https://github.com/swodesh-2001/Auto-Steering-of-Vehicle-Using-OpenCV-and-CNN/assets/70265297/2efbbc0c-8cf5-46b4-80f0-baa27ded0659)
+These techniques make the data more versatile, allowing the model to generalize for various scenarios despite the limited amount of data 
 
 c)RGB to YUV
 This conversion helps to highlight the lane features of the track
