@@ -18,6 +18,7 @@ This project is focused on implementing lane-following capabilities for autonomo
 
 **Simulation Environment:**
 Utilize Gym Donkey Car simulation for generating training and testing data.
+
 Simulator Link : https://github.com/tawnkramer/gym-donkeycar
 
 ![image](https://github.com/swodesh-2001/Auto-Steering-of-Vehicle-Using-OpenCV-and-CNN/assets/70265297/1fcf24ac-fb8f-4962-9e81-4ceba34a8b8f)
