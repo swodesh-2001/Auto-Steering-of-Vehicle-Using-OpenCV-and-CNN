@@ -93,5 +93,9 @@ Model Architecture used for CNN.
  
 ![CNN](https://github.com/swodesh-2001/Auto-Steering-of-Vehicle-Using-OpenCV-and-CNN/assets/70265297/fc07a74b-ceb7-4cd8-9223-48ab60c6a0ce)
 
- 
+
+### Hardware Development
+
+
+![Hardware](https://github.com/user-attachments/assets/6e405b7b-1668-421f-b6f2-7278d756581a)
 
